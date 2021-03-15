@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e6e6fa;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.QuestionScene">
+    <center>
+        <AnchorPane prefHeight="353.0" prefWidth="600.0">
+            <children>
+                <Button fx:id="b1" layoutX="77.0" layoutY="137.0" mnemonicParsing="false" onAction="#button1" text="Answer 1" AnchorPane.leftAnchor="37.0" />
+                <Button fx:id="b2" layoutX="77.0" layoutY="174.0" mnemonicParsing="false" onAction="#button2" text="Answer 2" AnchorPane.leftAnchor="37.0" />
+                <Button fx:id="b3" layoutX="77.0" layoutY="210.0" mnemonicParsing="false" onAction="#button3" text="Answer 3" AnchorPane.leftAnchor="37.0" />
+                <Label fx:id="lbl" layoutX="78.0" layoutY="94.0" text="Label" AnchorPane.leftAnchor="78.0" AnchorPane.topAnchor="94.0" />
+                <Label layoutX="75.0" layoutY="263.0" text="Your Answer:" />
+                <Label fx:id="answerLbl" layoutX="130.0" layoutY="280.0" />
+                <Button fx:id="answerButton" layoutX="37.0" layoutY="339.0" mnemonicParsing="false" onAction="#answer" text="Answer" AnchorPane.bottomAnchor="35.66666666666667" AnchorPane.leftAnchor="37.0" />
+                <Label layoutX="361.0" layoutY="50.0" text="Correct Answers" textFill="#2a990e" AnchorPane.rightAnchor="153.0" AnchorPane.topAnchor="50.0" />
+                <Label layoutX="504.0" layoutY="50.0" text="False Answers" textFill="RED" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="50.0" />
+                <Label layoutX="205.0" layoutY="50.0" text="Remaining Questions" AnchorPane.rightAnchor="281.6666666666667" AnchorPane.topAnchor="50.0" />
+                <Label fx:id="remainingL" layoutX="248.0" layoutY="68.0" text="Label" AnchorPane.rightAnchor="324.0" AnchorPane.topAnchor="68.0" />
+                <Label fx:id="correctL" layoutX="390.0" layoutY="68.0" text="Label" AnchorPane.rightAnchor="182.0" AnchorPane.topAnchor="68.0" />
+                <Label fx:id="falseL" layoutX="504.0" layoutY="68.0" text="Label" AnchorPane.rightAnchor="68.0" AnchorPane.topAnchor="68.0" />
+                <Button fx:id="skipB" layoutX="518.0" layoutY="339.0" mnemonicParsing="false" onAction="#skip" text="Skip" AnchorPane.bottomAnchor="35.66666666666667" AnchorPane.rightAnchor="30.0" />
+                <Label fx:id="timerL" layoutX="144.0" layoutY="50.0" text="Label" />
+            </children></AnchorPane>
+    </center>
+</BorderPane>

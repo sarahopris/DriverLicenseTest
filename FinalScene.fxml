@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.FinalScene">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa;" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="exitB" layoutX="270.0" layoutY="193.0" mnemonicParsing="false" onAction="#exit" prefHeight="27.0" prefWidth="59.0" text="Exit" />
+                <Button fx:id="newB" layoutX="270.0" layoutY="154.0" mnemonicParsing="false" onAction="#newTest" text="New Try" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

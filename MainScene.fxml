@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e6e6fa;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.MainScene">
+    <children>
+        <Button fx:id="bStart" layoutX="270.0" layoutY="257.0" mnemonicParsing="false" onAction="#myFunction" text="START">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <effect>
+                <ColorAdjust />
+            </effect></Button>
+        <Label layoutX="171.0" layoutY="162.0" prefHeight="43.0" prefWidth="294.0" text="Apasa START pentru a incepe testul!">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
